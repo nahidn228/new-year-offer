@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
-.all-font {
+.all-section {
   font-family: "Merriweather", serif;
+  margin-bottom: 120px;
 }
 
 * {
   margin: 0;
   padding: 0;
 }
+
+/*   header section start */
 
 header {
   background-image: linear-gradient(
@@ -41,3 +44,99 @@ header {
   letter-spacing: 0%;
   text-align: center;
 }
+/*   header section End */
+
+/*   Categories section Start */
+.categories {
+  text-align: center;
+}
+.categorie-parcent {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  letter-spacing: 0%;
+  margin-bottom: 48px;
+}
+.categorie-deals {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  margin-bottom: 16px;
+}
+.categorie-title {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0%;
+}
+.categorie-img {
+  margin-top: 45px;
+}
+
+/*   Categories section End */
+/*   Party section Start */
+.party {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-around;
+  background-image: linear-gradient(
+      90deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url("../images/Vectorrr.png");
+
+  width: 1320px;
+  height: 600px;
+  background-repeat: no-repeat;
+  margin: 50px 140px;
+
+  border-radius: 16px;
+}
+.party-body {
+  display: flex;
+  /* text-align: center; */
+  align-items: center;
+  padding: 0 110px;
+  gap: 90px;
+}
+.party-title {
+  color: rgb(255, 255, 255);
+
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+  text-align: left;
+}
+
+.party-content {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.party-body a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+}
+
+/*   Party section End */
