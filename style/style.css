@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
-.all-section {
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
   font-family: "Merriweather", serif;
   margin-bottom: 120px;
 }
@@ -12,24 +14,24 @@
 
 /*   header section start */
 
-header {
+.header-bg {
   background-image: linear-gradient(
       180deg,
       rgb(7, 2, 17),
       rgba(7, 2, 17, 0) 100%
     ),
     url("../images/BannerImage.png");
-  width: 1320px;
+  max-width: 1300px;
   height: 600px;
   background-repeat: no-repeat;
-  margin: 50px 140px;
+  margin: 50px auto;
   border-radius: 16px;
 }
 
 .header-title {
   color: rgb(255, 255, 255);
   font-family: Merriweather;
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 400;
   line-height: 40px;
   letter-spacing: 0%;
@@ -38,22 +40,26 @@ header {
 }
 .header-subtitle {
   color: rgb(255, 255, 255);
-  font-size: 72px;
+  font-size: 50px;
   font-weight: 900;
-  line-height: 95px;
-  letter-spacing: 0%;
   text-align: center;
+  padding-top: 20px;
 }
 /*   header section End */
 
 /*   Categories section Start */
 .categories {
+  max-width: 1300px;
+  margin: 0 auto;
   text-align: center;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 120px;
 }
+
 .categorie-parcent {
   color: rgb(255, 0, 0);
   font-family: Inter;
-  font-size: 88px;
+  font-size: 70px;
   font-weight: 700;
   line-height: 107px;
   letter-spacing: 0%;
@@ -62,7 +68,7 @@ header {
 .categorie-deals {
   color: rgb(255, 0, 0);
   font-family: Inter;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 29px;
   letter-spacing: 0%;
@@ -71,13 +77,17 @@ header {
 .categorie-title {
   color: rgb(7, 2, 17);
   font-family: Inter;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 58px;
   letter-spacing: 0%;
 }
 .categorie-img {
   margin-top: 45px;
+}
+.categorie-img img {
+  width: 600px;
+  height: 400px;
 }
 
 /*   Categories section End */
@@ -94,10 +104,10 @@ header {
     ),
     url("../images/Vectorrr.png");
 
-  width: 1320px;
+  max-width: 1300px;
+  margin: 0 auto;
   height: 600px;
   background-repeat: no-repeat;
-  margin: 50px 140px;
 
   border-radius: 16px;
 }
@@ -127,16 +137,136 @@ header {
   text-align: left;
   margin-bottom: 30px;
 }
-.party-body a{
+.party-body a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: center;
-text-transform: uppercase;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /*   Party section End */
+/* Schedule section Start */
+.schedule-section {
+  max-width: 1300px;
+  height: 450px;
+  margin: 120px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  text-transform: capitalize;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+
+  margin-bottom: 120px;
+}
+.schedule-text {
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.schedule-btn {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px 16px 32px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(255, 0, 0);
+}
+
+/* Schedule section End */
+/* offer section Start */
+.offer-section {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.first-text {
+  max-width: 350px;
+  height: 100%;
+}
+.offer-subtitle {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.offer-title {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.offer-content {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.offer-img {
+  max-width: 450px;
+  box-sizing: border-box;
+  border: 12px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  padding: 30px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+.second-text {
+  max-width: 300px;
+  text-align: left;
+ 
+}
+.second-text-title{
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.second-text-subtitle{
+  color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+margin-bottom: 30px;
+}
+
+/* offer section End */
