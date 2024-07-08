@@ -203,6 +203,7 @@ body {
   gap: 100px;
   max-width: 1300px;
   margin: 0 auto;
+  margin-bottom: 120px;
 }
 .first-text {
   max-width: 350px;
@@ -244,14 +245,12 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  
 }
 .second-text {
   max-width: 300px;
   text-align: left;
- 
 }
-.second-text-title{
+.second-text-title {
   color: rgb(255, 0, 0);
   font-family: Inter;
   font-size: 40px;
@@ -259,14 +258,44 @@ body {
   text-align: left;
   margin-bottom: 12px;
 }
-.second-text-subtitle{
+.second-text-subtitle {
   color: rgba(7, 2, 17, 0.6);
-font-family: Inter;
-font-size: 15px;
-font-weight: 400;
-line-height: 32px;
-text-align: left;
-margin-bottom: 30px;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  margin-bottom: 30px;
 }
 
 /* offer section End */
+/* Holiday sale section start */
+.holidaySale {
+  max-width: 1000px;
+  height: 260px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.holidaySale-subtitle {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.holidaySale-title {
+  font-family: Merriweather;
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.holidaySale-content {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* Holiday sale section End */
