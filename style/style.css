@@ -275,7 +275,6 @@ body {
   height: 260px;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 120px;
 }
 .holidaySale-subtitle {
   color: rgb(7, 2, 17);
@@ -297,5 +296,35 @@ body {
   font-size: 15px;
   font-weight: 500;
 }
-
 /* Holiday sale section End */
+/* discount section Start */
+.discount-section {
+  max-width: 1300px;
+  height: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.discount-section-red {
+  width: 1300px;
+  height: 230px;
+  border-radius: 16px 0px 16px 16px;
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  bottom: 1px;
+}
+.discount-section-img {
+  
+  width: 600px;
+  height: 600px;
+  top: 22%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 150px;
+  
+}
+/* discount section End */
+/* Awesome Portfolio section Start */
+
+/* Awesome Portfolio section End */
